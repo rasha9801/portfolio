@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasha Mustafa - Full Stack & Software Engineer</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0 0 5px 0; color: var(--primary); }
+        h2 { font-size: 1.25rem; color: var(--text-muted); margin: 0 0 15px 0; font-weight: 500; }
+        .contact-info { font-size: 0.95rem; color: var(--text-muted); }
+        .contact-info a { color: var(--primary); text-decoration: none; }
+        section { margin-bottom: 30px; }
+        h3 { border-bottom: 1px solid var(--border); padding-bottom: 5px; color: var(--primary); }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .job-title { font-weight: bold; color: var(--text-main); }
+        .job-company { color: var(--primary); font-weight: 600; }
+        .job-date { float: right; color: var(--text-muted); font-size: 0.9rem; }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        .skill-category { background: #f1f5f9; padding: 12px; border-radius: 8px; }
+        .skill-category strong { display: block; margin-bottom: 5px; color: var(--primary); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Rasha Mustafa</h1>
+        <h2>Full-Stack & Software Engineer</h2>
+        <div class="contact-info">
+            Damascus, Syria | 📱 +963988649070 | ✉️ rasha9801.rm@gmail.com | 🌐 <a href="https://github.com/rasha9801" target="_blank">github.com/rasha9801</a>
+        </div>
+    </header>
+
+    <section>
+        <h3>About Me</h3>
+        <p>Software & Full-Stack Engineer with hands-on experience building scalable web applications, optimizing backend architectures, and developing AI-powered features. Proficient across the PHP (Laravel, CodeIgniter) and JavaScript (React, Vue, Angular) ecosystems, with specialized expertise in ERPNext/Frappe customizations, database performance tuning, and automation tools.</p>
+    </section>
+
+    <section>
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Backend</strong>
+                PHP (Laravel, CodeIgniter), Python (Frappe/ERPNext), Node.js, Express, Java
+            </div>
+            <div class="skill-category">
+                <strong>Frontend</strong>
+                JavaScript, TypeScript, React, Vue.js, Angular, Vanilla JS, MUI
+            </div>
+            <div class="skill-category">
+                <strong>Databases & DevOps</strong>
+                MySQL, MongoDB, Git
+            </div>
+            <div class="skill-category">
+                <strong>AI & Specialized Tools</strong>
+                Machine Learning, AI Chatbot Integrations, Custom DocType Automation
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Work Experience</h3>
+        
+        <div style="margin-bottom: 20px;">
+            <span class="job-company">VIA Unifi Information Technology</span> <span class="job-date">10/2025 – Present</span>
+            <div class="job-title">Full Stack Developer (UAE)</div>
+            <ul>
+                <li><strong>Frappe / ERPNext Apps:</strong> Engineered custom installable apps with Python backends and Vanilla JS frontends, creating a custom <strong>DocType Generator</strong> tool that auto-creates files from DB structures to accelerate site setups.</li>
+                <li><strong>E-Commerce Platform:</strong> Built scalable shopping features and RESTful APIs using Laravel and React.</li>
+                <li><strong>Auction Platform:</strong> Developed real-time bidding features and reactive UI components using CodeIgniter and Vue.js.</li>
+                <li><strong>POS & Restaurant Management:</strong> Engineered real-time order processing, inventory tracking, and payment management workflows using Laravel and Vue.js.</li>
+                <li><strong>AI Chatbot Integration:</strong> Built and deployed a functional AI chatbot within two days to enhance user interaction.</li>
+                <li><strong>Database Optimization:</strong> Transformed slow runtime queries into high-performance O(1) memory lookups using indexed database views.</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <span class="job-company">Codveda</span> <span class="job-date">09/2025 – 10/2025</span>
+            <div class="job-title">AI Developer Intern (India)</div>
+            <ul>
+                <li><strong>Machine Learning:</strong> Built, evaluated, and deployed end-to-end ML models tailored for business applications.</li>
+                <li><strong>Data Pipelines:</strong> Processed raw datasets and optimized algorithms to improve model performance and accuracy.</li>
+            </ul>
+        </div>
+
+        <div>
+            <span class="job-company">Primasys</span> <span class="job-date">01/2023 – 04/2024</span>
+            <div class="job-title">Web Developer (Damascus, Syria)</div>
+            <ul>
+                <li><strong>System Kernel Library:</strong> Developed core system utilities using Java and JavaScript.</li>
+                <li><strong>Security & Permissions:</strong> Upgraded security libraries and implemented fine-grained user permission controls.</li>
+                <li><strong>BWORK EDSM:</strong> Built user interface components for the GUI Designer application.</li>
+                <li><strong>Report Generator:</strong> Engineered the core logic for the automated System Report Generator.</li>
+                <li><strong>Document Viewer:</strong> Built image and office document viewers to expand file viewing capabilities.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h3>Education & Training</h3>
+        <ul>
+            <li><strong>Damascus University</strong> – Bachelor of Engineering in Information Technology, Specialization in Artificial Intelligence (Damascus, Syria | 2016–2022)</li>
+            <li><strong>SHAI for AI (Jordan)</strong> – Artificial Intelligence Training (Advanced subjects & Kaggle competitions)</li>
+            <li><strong>Damascus University</strong> – MEAN-Stack Course (Angular framework & Express RESTful APIs)</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
